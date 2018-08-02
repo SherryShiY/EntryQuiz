@@ -1,0 +1,51 @@
+Bitontop Technologies Inc.
+Front-End Entry Quiz
+
+Note: 
+There are 3 questions. 
+You may not able to finish all the questions, but please answer as many question as you can. 
+You have 90 minutes to complete it.
+
+
+Name:	
+Email:	
+Phone:	
+Data:	
+LinkIn:	
+GitHub:	
+WeChat ID:	
+Salary Expectations:	
+ 
+
+1. Sign up Nebulas.io. We can track your work by the Nebulas account.
+
+https://incentive.nebulas.io/cn/signup.html?invite=pWKZ9
+
+2. Developing a dAPP. 
+
+Resource website.
+https://nebulas.io/developers.html
+https://incentive.nebulas.io/dappstore.html
+Using your own idea to create your own dAPP
+Submitting your dAPP
+https://incentive.nebulas.io/submit-dapp.html
+
+3. Describing your work.
+
+If the dAPP is working, Please give the following information
+dAPP Name
+Introduction this dAPP
+Smart Contract Instructions for Use
+Source code link in GitHub or BitBucket
+And congratulations. We can move forward next step!
+If the dAPP is not working, Please give the following reason
+Describing this dAPP.
+Introduction this dAPP
+Smart Contract Instructions for Use
+What is your idea? Why can’t it work? What is it missing?
+Source code link in GitHub or BitBucket
+Describing performance
+Which skills do you miss?
+Which knowledge should you improve?
+What can we help you?
+Are you willing to become a technical assistant?

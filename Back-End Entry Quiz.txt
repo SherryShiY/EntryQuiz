@@ -1,0 +1,180 @@
+Bitontop Technologies Inc.
+Back-End Entry Quiz
+
+Note: 
+There are 6 questions. 
+You may not able to finish all the questions, but please answer as many question as you can. 
+You have 90 minutes to complete it.
+Please give your answers in C/C++. 
+If you don’t know C/C++, using your main programming language will be acceptable, but please state the language you are using and make note all assumptions.
+
+Name:	
+Email:	
+Phone:	
+Data:	
+LinkedIn:	
+GitHub:	
+WeChat ID:	
+Salary Expectations:	
+ 
+
+1. System admin / DevOps Position Challenge 
+	
+Deploying https://github.com/iquidus/explorer in Ubuntu
+Running in a docker container
+Using AIB core program to replace Bitcoin core to reduce sync time.
+ https://github.com/iobond/aib
+There is no code modification needed in this task.
+The result looks like: 
+https://chainz.cryptoid.info/c2/
+Please submit your work as docker image and a docker run command
+
+ 
+
+2. Palindrome   *Expected Time: 10 min
+
+A palindrome is a word that reads the same backward or forward.
+Write a function that checks if a given word is a palindrome. Character case should be ignored.
+For example, isPalindrome("Deleveled") should return true as character case should be ignored, resulting in "deleveled", which is a palindrome since it reads the same backward and forward.
+
+Please completed the following code:
+
+#include <string>
+#include <stdexcept>
+#include <iostream>
+
+class Palindrome
+{
+public:
+    static bool isPalindrome(const std::string& word)
+    {
+        throw std::logic_error("Waiting to be implemented");
+    }
+};
+
+#ifndef RunTests
+int main()
+{
+    std::cout << Palindrome::isPalindrome("Deleveled");
+}
+#endif
+ 
+
+
+3. Binary Search Tree   *Expected Time: 15 min
+
+Binary search tree (BST) is a binary tree where the value of each node is larger or equal to the values in all the nodes in that node's left subtree and smaller than the values in all the nodes in that node's right subtree.
+Write a function that returns 1 if a given binary search tree contains a given value, else 0.
+For example, for the following tree:
+n1 (Value: 1, Left: null, Right: null)
+n2 (Value: 2, Left: n1, Right: n3)
+n3 (Value: 3, Left: null, Right: null)
+Call to contains(&n2, 3) should return 1 since a tree with root at n2 contains number 3.
+
+Please completed the following code:
+
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct Node {
+    int value;
+    struct Node *left;
+    struct Node *right;
+} Node;
+
+int contains(const Node *root, int value)
+{
+	exit(0);
+}
+
+#ifndef RunTests
+int main()
+{
+    Node n1 = {.value=1, .left=NULL, .right=NULL};
+    Node n3 = {.value=3, .left=NULL, .right=NULL};
+    Node n2 = {.value=2, .left=&n1, .right=&n3};
+
+    printf("%d", contains(&n2, 3));
+}
+#endif
+ 
+
+
+4. Two Sum   *Expected Time: 30 min
+
+Write a function that, when passed a list and a target sum, returns two distinct zero-based indices of any two of the numbers, whose sum is equal to the target sum. If there are no two numbers, the function should return (-1, -1).
+For example, findTwoSum({ 3, 1, 5, 7, 5, 9 }, 10) should return a std::pair<int, int> containing any of the following pairs of indices:
+0 and 3 (or 3 and 0) as 3 + 7 = 10
+1 and 5 (or 5 and 1) as 1 + 9 = 10
+2 and 4 (or 4 and 2) as 5 + 5 = 10
+
+Please completed the following code:
+
+#include <stdexcept>
+#include <iostream>
+#include <vector>
+#include <utility>
+
+class TwoSum
+{
+public:
+    static std::pair<int, int> findTwoSum(const std::vector<int>& list, int sum)
+    {
+        throw std::logic_error("Waiting to be implemented");
+    }
+};
+
+#ifndef RunTests
+int main()
+{
+    std::vector<int> list = {3, 1, 5, 7, 5, 9};
+    std::pair<int, int> indices = TwoSum::findTwoSum(list, 10);
+    std::cout << indices.first << '\n' << indices.second;
+}
+#endif
+ 
+
+
+5. Sorted Search   *Expected Time: 20 min
+
+Implement function countNumbers that accepts a sorted vector of integers and counts the number of vector elements that are less than the parameter lessThan.
+For example, for vector v containing { 1, 3, 5, 7 }, SortedSearch::countNumbers(v, 4) should return 2 because there are two vector elements less than 4.
+
+Please completed the following code:
+
+#include <vector>
+#include <stdexcept>
+#include <iostream>
+
+class SortedSearch
+{
+public:
+    static int countNumbers(const std::vector<int>& sortedVector, int lessThan)
+    {
+        throw std::logic_error("Waiting to be implemented");
+    }
+};
+
+#ifndef RunTests
+int main()
+{
+    std::vector<int> v { 1, 3, 5, 7 };
+    std::cout << SortedSearch::countNumbers(v, 4);
+}
+#endif
+ 
+
+
+6. Can you name an example of a recursive solution that you created?
+
+
+
+
+
+
+
+
+
+
+
+
